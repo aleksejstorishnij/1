@@ -64,7 +64,8 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    background-color: #393939;
+    color: #E5E5E5;
 }
 
 .grid-1 {
@@ -171,10 +172,27 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #393939;
+  color: #E5E5E5;
 }
+
 .footer {
   background-color: #fff;
   height: 94px;
-  display: flex;
-  justify-content: space-between;
+
+}
+.footer_container {
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer_kochut, .footer_info, .Social {
+    margin: 10px auto;
+}
+.content_bottom {
+padding-top: 30px;
 }
